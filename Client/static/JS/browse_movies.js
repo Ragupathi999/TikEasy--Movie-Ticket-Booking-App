@@ -1,6 +1,6 @@
 // Example:
 let movieData = [];
-const url = "http://127.0.0.1:3000/login/";
+const url = "https://tikeasy.azurewebsites.net/login/";
 
 async function slot_timing(movie) {
     const response = await fetch(url + "movies/timeslot?function=fetch", {
