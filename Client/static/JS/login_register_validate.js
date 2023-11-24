@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
             event.preventDefault();
             const email = document.getElementById("email").value;
             const password = document.getElementById("password").value;
-            const url = "http://127.0.0.1:3000/login"
+            const url = "https://tikeasy.azurewebsites.net/login"
             const response = await fetch(url + "?function=validate", {
                 method: 'POST',
                 headers: {
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const email = document.getElementById("email").value;
             const password = document.getElementById("password").value;
             const name = document.getElementById("name").value;
-            const url = "http://127.0.0.1:3000/"
+            const url = "https://tikeasy.azurewebsites.net/"
 
             const response = await fetch(url + "register?function=entry", {
                 method: 'POST',
