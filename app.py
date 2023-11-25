@@ -171,7 +171,7 @@ def logout():
     return render_template("login.html")
 
 
-@app.route("/submit_url", methods=["GET"])
+@app.route("https://tikeasy.azurewebsites.net/submit_url", methods=["GET"])
 def submitted():
     return render_template("confirmation.html")
 
